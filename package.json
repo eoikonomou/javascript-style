@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-javascript-style",
+  "version": "1.0.0",
+  "description": "Javascript style rules",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./react": "./react.js",
+    "./test": "./test.js",
+    "./test-react": "./test-react.js",
+    "./prettier": "./prettier.js",
+    "./testing/mocha": "./testing/mocha.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoikonomou/javascript-style.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "style",
+    "guide",
+    "javascript"
+  ],
+  "author": "Efstathios Oikonomou <eusoikonomou@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoikonomou/javascript-style/issues"
+  },
+  "homepage": "https://github.com/eoikonomou/javascript-style#readme",
+  "dependencies": {
+    "eslint": "8.41.0",
+    "eslint-config-airbnb": "19.0.4"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0"
+  }
+}
